@@ -1,0 +1,112 @@
+#navbar ul{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    grid-gap: 0rem;
+}
+
+#navbar ul li a {
+    display: flex;
+    padding-right: 0%;
+    text-align: center;
+
+}
+
+/* showcase  */
+
+#showcase .info-img {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+/* section:a */
+#section-a .home-about {
+    flex-direction: column;
+    grid-template-columns: 1fr;
+}
+#section-a  img {
+    margin-top: 5rem; 
+}
+
+img {
+    width: 100%;
+ }
+  
+ #section-a .about .text {
+    text-align: center;
+    font-size: 1rem;  
+}
+
+#section-a .about > :last-child h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+
+}
+.text h1 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+
+#section-a .about > :last-child p {
+    font-size: 1rem;
+    padding: 1rem 2rem 1rem;
+}
+
+
+ /* section:b */
+
+ #section-b .service  h2{
+    font-size: 1rem;
+
+ }
+
+ #section-b .desing {
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    text-align: center;
+
+   }
+
+   #section-b .box h1 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+/* contact page */
+
+#contact .contact-us h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#contact .contact-us .gmail {
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr ;
+ 
+}
+
+#contact .contact-us .text textarea {
+    height: 100px;
+   
+}
+
+/* footer  */
+#footer .footer-side {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+#footer .footer-left .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
